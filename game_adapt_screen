@@ -9,7 +9,7 @@ Version: 1.0
 --Instrucciones de uso--
 1) Cree un objeto nuevo persistente y escriba el nombre del script en el evento Step
 2) El código debe ocuparlo como cualquier otra función de Game Maker, sus argumentos son los siguientes:
-script_execute(game_adapt_screen, use_height, game_width/height, view, resolution;
+script_execute(game_adapt_screen, use_height, game_width/height, view, resolution);
 Donde:
 use_height (Booleano): Ocupar ancho (false) o alto (true) para ajustar al juego.
 game_width/height (Real): Establecer el ancho o alto originales de tu juego (depende de lo establecido anteriormente).
